@@ -11,11 +11,10 @@ const Head = (props) => (
     <title>{props.title || ''}</title>
     <meta name="description" content={props.description || defaultDescription} />
     
-	<title>Deft a Corporate Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<title>ICT-Agenda - KTT | Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta httpEquiv="Content-Type" content="text/html; charSet=utf-8" />
-	<meta name="keywords" content="Deft Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta name="keywords" content="ICT, KTT-2019, KTT, Kabiru Taminu Turaki" />
   	<script type="application/x-javascript">
 		{/* addEventListener("load", function () {
 			setTimeout(hideURLbar, 0)

@@ -1069,9 +1069,9 @@ h3.agile_tittle span {
 /*-- //skills --*/
 
 .skills {
-    background-size: cover;
+    background-size: 100% 100% !important;
     padding: 0;
-    min-height: 600px;
+    min-height: 500px;
     background-color: #062d20 ;
 }
 

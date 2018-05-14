@@ -29,6 +29,7 @@ export default () => (
 			</div>
 		</div>
 	</div>
+
 	<div className="modal fade" id="myModal4" tabindex="-1" role="dialog">
 		<div className="modal-dialog">
 	
@@ -63,27 +64,28 @@ export default () => (
 
 		<div className="clearfix"> </div>
 	</div>
+
 	<div className="skills-agileinfo" id="skills">
-  <div className="col-md-6 bar-grids  w3-agile">
+  	<div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
 				<h3 className="w3l_header w3_agileits_header">The <span>United States of Nigeria Forum</span></h3>
 			</div>
 			<div className="wthree_skills">
 				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
+        	Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
+        </p>
+				<p>
+        	Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
         </p>
 			</div>
 		</div>
-		<div className="col-md-6 skills" style={{background: "url(/static/images/ktttv.png) no-repeat 0px 0px"}}>
+		<div className="col-md-6 skills" style={{background: "url(/static/images/usn.jpg) no-repeat 0px 0px", minHeight: "800px"}}>
 		</div>
-		
-
 		<div className="clearfix"> </div>
 	</div>
-
   
   <div className="skills-agileinfo" id="skills">
-    <div className="col-md-6 skills">
+    <div className="col-md-6 skills" style={{background: "url(/static/images/youfirst.jpg) no-repeat 0px 0px", minHeight: "800px"}}>
 		</div>
     <div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
@@ -94,10 +96,14 @@ export default () => (
         Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
         </p>
 			</div>
+			<div className="wthree_skills">
+				<p>
+        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
+        </p>
+			</div>
 		</div>
 		<div className="clearfix"> </div>
 	</div>
-
 
   <div className="skills-agileinfo" id="skills">
     
@@ -116,7 +122,6 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
-
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 skills" style={{background: "url(/static/images/polling.jpg) no-repeat 0px 0px"}}>
 		</div>
@@ -133,7 +138,6 @@ export default () => (
     
 		<div className="clearfix"> </div>
 	</div>
-
 
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 bar-grids  w3-agile">
@@ -152,7 +156,6 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
-
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 skills" style={{background: "url(/static/images/icta.jpg) no-repeat 0px 0px"}}>
 		</div>
@@ -169,7 +172,6 @@ export default () => (
     
 		<div className="clearfix"> </div>
 	</div>
-
 
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 bar-grids  w3-agile">
@@ -188,7 +190,6 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
-
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 skills" style={{background: "url(/static/images/newsagg.jpg) no-repeat 0px 0px"}}>
 		</div>
@@ -205,7 +206,6 @@ export default () => (
     
 		<div className="clearfix"> </div>
 	</div>
-
 
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 bar-grids  w3-agile">
@@ -224,9 +224,8 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
-
   <div className="skills-agileinfo" id="skills">
-		<div className="col-md-6 skills">
+		<div className="col-md-6 skills" style={{background: "url(/static/images/bilboard.jpg) no-repeat 0px 0px"}}>
 		</div>
     <div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
@@ -241,10 +240,6 @@ export default () => (
        
 		<div className="clearfix"> </div>
 	</div>
-
-
-
-
 
 
 	<div className="footer">
