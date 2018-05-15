@@ -303,6 +303,22 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
+	<div className="skills-agileinfo" id="skills">
+    <div className="col-md-4 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">Social <span>Media</span></h3>
+			</div>
+			<div className="wthree_skills">
+				
+				
+			</div>
+		</div>
+    <div className="col-md-8 skills" style={{background: "url(/static/images/thehub.png) no-repeat 0px 0px"}}>
+		</div>
+    
+		<div className="clearfix"> </div>
+	</div>
+
   
 
 
