@@ -224,7 +224,7 @@ export default () => (
 	</div>
 
 	<div className="skills-agileinfo" id="skills">
-		<div className="col-md-6 skills" style={{background: "url(/static/images/blog.png) no-repeat 0px 0px"}}>
+		<div className="col-md-6 skills" style={{background: "url(/static/images/blog.PNG) no-repeat 0px 0px"}}>
 		</div>
     <div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
@@ -257,7 +257,7 @@ export default () => (
 			</div>
 		</div>
 		
-    <div className="col-md-6 skills" style={{background: "url(/static/images/personal.png) no-repeat 0px 0px"}}>
+    <div className="col-md-6 skills" style={{background: "url(/static/images/personal.PNG) no-repeat 0px 0px"}}>
 		</div>
 		<div className="clearfix"> </div>
 	</div>
@@ -306,7 +306,7 @@ export default () => (
 	<div className="skills-agileinfo" id="skills">
     <div className="col-md-4 bar-grids  w3-agile">
 			<div className="wthree_head_section">
-				<h3 className="w3l_header w3_agileits_header">Social <span>Media</span></h3>
+				<h3 className="w3l_header w3_agileits_header">Internal <span>Communication Strategy</span></h3>
 			</div>
 			<div className="wthree_skills">
 				
