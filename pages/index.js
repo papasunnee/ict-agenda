@@ -14,13 +14,7 @@ export default () => (
 			<div className="agile_wthree_inner_grids">
 
 				<div className="col-md-6 about_agileinfo">
-					<h4>Start Something New</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-						dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
-
-					<p>Integer laoreet ultricies nunc, vitae eleifend elit rutrum sit amet. In elementum, magna id pellentesque auctor, risus
-						dolor congue urna, nec dapibus eros magna a odio. Duis laoreet risus eget malesuada consequat. Nunc et tortor dignissim,
-						laoreet est eget</p>
+					<h4 style={{marginTop: "20px"}}>Start Something New</h4>
 				</div>
 				<div className="col-md-6 about_agileinfo_grid_imgs">
 					<img src="/static/images/icta.jpg" alt="" />
@@ -53,13 +47,15 @@ export default () => (
 		</div>
 		<div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
-				<h3 className="w3l_header w3_agileits_header">Delegate <span>Information Services</span></h3>
+				<h3 className="w3l_header w3_agileits_header">Delegate and National <span>Information Services</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+				<h2 class="text-center" style={{margin:"5px auto"}}>
+        VISIT: <a href="http://ktt-backend.herokuapp.com" target="_blank">ktt-backend.herokuapp.com</a>
+        </h2>
+				<p>Its a backend admin panel that contains details of PDP delegates across the country, and will be used to communicate and document messages and other information sent to them.</p>
 			</div>
+			
 		</div>
 
 		<div className="clearfix"> </div>
@@ -71,12 +67,7 @@ export default () => (
 				<h3 className="w3l_header w3_agileits_header">The <span>United States of Nigeria Forum</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        	Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
-				<p>
-        	Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+				<h2>Policy based blog to discuss topical issues in Nigeria.</h2>
 			</div>
 		</div>
 		<div className="col-md-6 skills" style={{background: "url(/static/images/usn.jpg) no-repeat 0px 0px", minHeight: "800px"}}>
@@ -92,14 +83,11 @@ export default () => (
 				<h3 className="w3l_header w3_agileits_header">You <span>First Platform</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
-			</div>
-			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="http://ktt-app.herokuapp.com" target="_blank">ktt-app.herokuapp.com</a>
+        </h2>
+				<p>This an online campaign platform for his excellency, adopting You First as his political mantra. Government and governance should be about the people,
+					and in the coming political dispensation, it about the people. </p>
 			</div>
 		</div>
 		<div className="clearfix"> </div>
@@ -112,9 +100,10 @@ export default () => (
 				<h3 className="w3l_header w3_agileits_header">KTT.<span>YEZ Platform</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="http://ktt-yez.herokuapp.com/user" target="_blank">ktt-yez.herokuapp.com</a>
+        </h2>
+				<p>This an online platform that collects data of yet to be employed youth, conducting an online assessment test for free to determine their employability state and providing solutions accordingly. </p>
 			</div>
 		</div>
     <div className="col-md-6 skills" style={{background: "url(/static/images/yez1.png) no-repeat 0px 0px"}}>
@@ -122,22 +111,27 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
-  <div className="skills-agileinfo" id="skills">
-    <div className="col-md-6 skills" style={{background: "url(/static/images/polling.jpg) no-repeat 0px 0px"}}>
+
+
+	<div className="skills-agileinfo" id="skills">
+		<div className="col-md-6 skills" style={{background: "url(/static/images/mobile.jpg) no-repeat 0px 0px"}}>
 		</div>
     <div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
-				<h3 className="w3l_header w3_agileits_header">Online <span>Polling Solution(UNOP)</span></h3>
+				<h3 className="w3l_header w3_agileits_header">YOU<span> First Mobile</span></h3>
+				<h3 className="w3l_header w3_agileits_header">KTT<span> YEZ Mobile</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+			
+			<p>
+				App will be signed and placed on google playstore as soon as campaign policies, and content have been approved.
+			</p>
 			</div>
 		</div>
     
 		<div className="clearfix"> </div>
 	</div>
+
 
   <div className="skills-agileinfo" id="skills">
     <div className="col-md-6 bar-grids  w3-agile">
@@ -145,9 +139,9 @@ export default () => (
 				<h3 className="w3l_header w3_agileits_header">KTT <span>Television</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="hhttp://ktt-app.herokuapp.com/news" target="_blank">ktt-app.herokuapp.com/news</a>
+        </h2>
 			</div>
 		</div>
     <div className="col-md-6 skills" style={{background: "url(/static/images/ktttv.png) no-repeat 0px 0px"}}>
@@ -165,41 +159,7 @@ export default () => (
 			</div>
 			<div className="wthree_skills">
 				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
-			</div>
-		</div>
-    
-		<div className="clearfix"> </div>
-	</div>
-
-  <div className="skills-agileinfo" id="skills">
-    <div className="col-md-6 bar-grids  w3-agile">
-			<div className="wthree_head_section">
-				<h3 className="w3l_header w3_agileits_header">Social <span>Media Services</span></h3>
-			</div>
-			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
-			</div>
-		</div>
-    <div className="col-md-6 skills" style={{background: "url(/static/images/ssms.png) no-repeat 0px 0px"}}>
-		</div>
-    
-		<div className="clearfix"> </div>
-	</div>
-
-  <div className="skills-agileinfo" id="skills">
-    <div className="col-md-6 skills" style={{background: "url(/static/images/newsagg.jpg) no-repeat 0px 0px"}}>
-		</div>
-    <div className="col-md-6 bar-grids  w3-agile">
-			<div className="wthree_head_section">
-				<h3 className="w3l_header w3_agileits_header">News <span>Aggregation Service</span></h3>
-			</div>
-			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
+        <h2 class="text-center">Visit the Campaign ICT center</h2>
         </p>
 			</div>
 		</div>
@@ -213,9 +173,9 @@ export default () => (
 				<h3 className="w3l_header w3_agileits_header">Graphics <span>Print Media</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+				<h3 class="text-center">
+        We have samples of designed souvenirs designed at the campaign ICT center for His Excellency
+        </h3>
 			</div>
 		</div>
     <div className="col-md-6 skills" style={{background: "url(/static/images/graphics.jpg) no-repeat 0px 0px"}}>
@@ -232,21 +192,125 @@ export default () => (
 				<h3 className="w3l_header w3_agileits_header">KTT <span>Sport Support Group</span></h3>
 			</div>
 			<div className="wthree_skills">
-				<p>
-        Lorem ipsum dolor sit amet, justo justo. Egestas lacus vel. Ligula lobortis et et semper consectetuer, elit vitae, condimentum curabitur donec fusce non, nisl donec urna id vel, molestie ornare ut eu aliquet. Id sed diam eget integer ac ante, eu sociosqu, rutrum cursus, suscipit elementum vulputate in nec vitae. Ornare tellus urna pulvinar mollis pede commodo, velit duis sed id nunc nullam mi, a suspendisse consectetuer mollis id aliquam dictumst, nec mollis pulvinar fermentum tortor fusce duis. Justo litora eleifend metus tortor donec, blandit sem, libero est velit lacus sollicitudin etiam, varius interdum.
-        </p>
+				<h3>
+					Nigeria is a football loving nation, and this is one of the things that unites us irrespective of tribe or religion.
+					The world cup is in 30days time, and there is no better time we can show love to Nigerians and show our support for the super eagles of Nigeria.
+				</h3>
 			</div>
 		</div>
        
 		<div className="clearfix"> </div>
 	</div>
 
+	<div className="skills-agileinfo" id="skills">
+    
+    <div className="col-md-6 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">Online <span>Polling Solution(UNOP)</span></h3>
+			</div>
+			<div className="wthree_skills">
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="http://ktt-app.herokuapp.com/contact" target="_blank">ktt-app.herokuapp.com</a>
+        </h2>
+				<p>
+					This an online polling feature on the campaign website. This feature will help in gathering real data (phone numbers).
+        </p>
+			</div>
+		</div>
+		<div className="col-md-6 skills" style={{background: "url(/static/images/polling.jpg) no-repeat 0px 0px"}}>
+		</div>
+    
+		<div className="clearfix"> </div>
+	</div>
+
+	<div className="skills-agileinfo" id="skills">
+		<div className="col-md-6 skills" style={{background: "url(/static/images/blog.png) no-repeat 0px 0px"}}>
+		</div>
+    <div className="col-md-6 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">The New Face of Hope <span>Blog</span></h3>
+			</div>
+			<div className="wthree_skills">
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="http://thenewfaceofhope.com" target="_blank">thenewfaceofhope.com</a>
+        </h2>
+				<p>
+					This an online polling feature on the campaign website. This feature will help in gathering real data (phone numbers).
+        </p>
+			</div>
+		</div>
+		
+    
+		<div className="clearfix"> </div>
+	</div>
+
+	<div className="skills-agileinfo" id="skills">
+		
+    <div className="col-md-6 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">KTT Personal <span>Website</span></h3>
+			</div>
+			<div className="wthree_skills">
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="https://kabirutanimuturaki.com" target="_blank">kabirutanimuturaki.com</a>
+        </h2>
+			</div>
+		</div>
+		
+    <div className="col-md-6 skills" style={{background: "url(/static/images/personal.png) no-repeat 0px 0px"}}>
+		</div>
+		<div className="clearfix"> </div>
+	</div>
+	<div className="skills-agileinfo" id="skills">
+    <div className="col-md-6 skills" style={{background: "url(/static/images/newsagg.jpg) no-repeat 0px 0px"}}>
+		</div>
+    <div className="col-md-6 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">News <span>Aggregation Service</span></h3>
+			</div>
+			<div className="wthree_skills">
+			<h2 class="text-center" style={{margin:"10px auto"}}>
+        VISIT: <a href="hhttp://ktt-app.herokuapp.com" target="_blank">ktt-app.herokuapp.com</a>
+        </h2>
+				<p>We have this feature scrolling at the top of every page on the campaign website</p>
+			</div>
+		</div>
+    
+		<div className="clearfix"> </div>
+	</div>
+
+	<div className="skills-agileinfo" id="skills">
+    <div className="col-md-6 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">Social <span>Media Services</span></h3>
+			</div>
+			<div className="wthree_skills">
+				<h3>
+					Including antidefamation services to protect and promote the online image of His Excellency
+				</h3>
+				
+					<ul style={{fontSize: "24px"}}>
+						<li>Sprout Social</li>
+						<li>Brand Watch</li>
+						<li>Google Alerts</li>
+					</ul>
+				
+			</div>
+		</div>
+    <div className="col-md-6 skills" style={{background: "url(/static/images/ssms.png) no-repeat 0px 0px"}}>
+		</div>
+    
+		<div className="clearfix"> </div>
+	</div>
+
+  
+
 
 	<div className="footer">
 		<div className="f-bg-w3l">
 			<div className="container">
 				<div className="col-md-12 w3layouts_footer_grid text-center">
-					<p >© 2018. All Rights Reserved | Powered by <a style={{color:"#ff0000", textDecoration:"none"}} href="https://altitude-tech.com/" target="_blank">Altitude Technology Worldwide</a></p>
+					<p >© 2018. All Rights Reserved | Powered by <a style={{color:"#ff0000", textDecoration:"none"}} href="http://altitude-tech.com/" target="_blank">Altitude Technology Worldwide</a></p>
 				</div>
 				<div className="clearfix"> </div>
 			</div>
