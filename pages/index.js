@@ -24,26 +24,9 @@ export default () => (
 		</div>
 	</div>
 
-	<div className="modal fade" id="myModal4" tabindex="-1" role="dialog">
-		<div className="modal-dialog">
-	
-			<div className="modal-content">
-				<div className="modal-header">
-					<button type="button" className="close" data-dismiss="modal">&times;</button>
-					<div className="modal-info">
-						<h4>Deft</h4>
-						<img src="/static/images/banner2.jpg" alt=" " className="img-responsive" />
-						<h5>Sub Heading here</h5>
-						<p className="para-agileits-w3layouts">Duis sit amet nisi quis leo fermentum vestibulum vitae eget augue. Nulla quam nunc, vulputate id urna at, tempor tincidunt
-							metus. Sed feugiat quam nec mauris mattis malesuada.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div className="skills-agileinfo" id="skills">
-		<div className="col-md-6 skills" style={{background: "url(/static/images/pdp.jpg)no-repeat 0px 0px"}}>
+		<div className="col-md-6 left skills" style={{background: "url(/static/images/pdp.jpg)no-repeat 0px 0px"}}>
 		</div>
 		<div className="col-md-6 bar-grids  w3-agile">
 			<div className="wthree_head_section">
@@ -140,7 +123,7 @@ export default () => (
 			</div>
 			<div className="wthree_skills">
 			<h2 class="text-center" style={{margin:"10px auto"}}>
-        VISIT: <a href="hhttp://ktt-app.herokuapp.com/news" target="_blank">ktt-app.herokuapp.com/news</a>
+        VISIT: <a href="http://ktt-app.herokuapp.com/news" target="_blank">ktt-app.herokuapp.com/news</a>
         </h2>
 			</div>
 		</div>
@@ -270,7 +253,7 @@ export default () => (
 			</div>
 			<div className="wthree_skills">
 			<h2 class="text-center" style={{margin:"10px auto"}}>
-        VISIT: <a href="hhttp://ktt-app.herokuapp.com" target="_blank">ktt-app.herokuapp.com</a>
+        VISIT: <a href="http://ktt-app.herokuapp.com" target="_blank">ktt-app.herokuapp.com</a>
         </h2>
 				<p>We have this feature scrolling at the top of every page on the campaign website</p>
 			</div>
@@ -319,7 +302,43 @@ export default () => (
 		<div className="clearfix"> </div>
 	</div>
 
-  
+  	<div className="skills-agileinfo" id="skills">
+    <div className="col-md-12 bar-grids  w3-agile">
+			<div className="wthree_head_section">
+				<h3 className="w3l_header w3_agileits_header">Programming <span>Languages and Applications Used</span></h3>
+			</div>
+			<div className="wthree_skills col-md-8 col-md-offset-1">
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th scope="col">Tier of Architecture</th>
+						<th scope="col">Technologies</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Front End</th>
+						<td>React, Android, Apollo, Apollo Android, Wordpress (CMS)</td>
+					</tr>
+					<tr>
+						<th scope="row">Backend End Technologies</th>
+						<td>GraphQL (API, Schema, Compose), ExpressJS, KeystoneJS, Strapi</td>
+					</tr>
+					<tr>
+						<th scope="row">Database Technologies</th>
+						<td>MongoDB</td>
+					</tr>
+					<tr>
+						<th scope="row">Phone Number Verification</th>
+						<td>TWILLO (www.twillo.com)</td>
+					</tr>
+				</tbody>
+			</table>		
+			</div>
+		</div>
+    
+		<div className="clearfix"> </div>
+	</div>
 
 
 	<div className="footer">
